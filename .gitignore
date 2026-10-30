@@ -1,0 +1,18 @@
+.venv/
+runtimes/
+__pycache__/
+*.pyc
+
+# pi coding-agent session history (local, not project content)
+.pi/
+
+# raw per-run server output; the curated tables in logs/**/*.md are what matters
+logs/**/*.log
+logs/*.log
+
+# generated audio/video fixtures
+testdata/*.wav
+testdata/*.mp4
+
+# vision fixture is a third-party photo, not needed to reproduce anything
+testdata/cats.png
